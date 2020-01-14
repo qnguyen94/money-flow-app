@@ -1,0 +1,115 @@
+#root {
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 80vh 10vh;
+
+    grid-template-areas: 
+    "header"
+    "body"
+    "footer";
+}
+
+.body{
+    grid-area: body;
+    background: #e8eaf6;
+
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100%;
+
+    grid-template-areas: 
+    "navbar renderArea";
+}
+
+#navbar {
+    grid-area: navbar;
+}
+
+#dashboard_render {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+
+    grid-area: renderArea;
+
+    overflow: auto;
+}
+
+
+/* Wrapper starts here */
+
+.header{
+    background: #afc2cb;
+    grid-area: header;
+}
+
+#website_logo{
+    margin-left: 20px;
+}
+
+.footer{
+    height: auto;
+    background: #afc2cb;
+    grid-area: footer;
+
+}
+
+#footer_text{
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* Wrapper ends here */
+
+
+/* Scroll Bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f5f1cd;
+    /* box-shadow: 1px 1px 2px 2px rgb(131, 155, 131); */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #37a170;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(49, 41, 49);
+}
+
+/* ::-webkit-scrollbar-button {
+    
+} */
+
+/* Test for mobile screen */
+@media only screen and (max-width: 768px){
+    .body{
+        grid-template-columns: 100%;
+        grid-template-rows: 200px auto;
+    
+        grid-template-areas: 
+        "navbar"
+        "renderArea";
+    }
+}

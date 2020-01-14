@@ -1,0 +1,39 @@
+_ List out states needed for redux store. (DONE)
+_ List needed reducers. (DONE)
+_ Build Redux store (Done for now)
+
+_ Build React-Redux store template (Done)
+
+_ Components (main_page, income_page, expense_page) (DONE)
+_ Conditional Rendering Based on Redux store state (Works)
+
+_ main_page 
+    conditional rendering [done]
+
+_ income_page 
+    functions (add, delete, clear) [done],
+    UPDATE updateIncome Modal to use custom attributes (Works)
+
+_ expense_page 
+    functions (add, delete, clear) [done]
+    _ ADD_EXPENSE (Works)
+    _ LOAD_DEFAULT (Works)
+    _ DELETE_EXPENSE (Works)
+    _ CLEAR_EXPENSES (Works)
+    _ EDIT_ITEMS (Works)
+
+_ Update sum of income on every income operation (DONE)
+_ Update sum of expenses on every expense operation (DONE
+_ Update money flow on every operation (DONE)
+
+
+Problems:
+_ focus amount on click (Solved)
+_ number input (set max) (Solved)
+
+
+
+_ Chart
+    main page: waffle (works for now)
+    income: pie (works for now)
+    expense: sunburst (next)

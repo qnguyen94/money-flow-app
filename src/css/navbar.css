@@ -1,0 +1,22 @@
+.navbar_tab {
+    display: block;
+    padding: 15px;
+    margin: 2px;
+
+    font-weight: bold;
+
+    transition: all 400ms ease;
+
+    margin-right: -10px;
+}
+
+.navbar_tab:hover{
+    padding-left: 20px;
+    cursor: pointer;
+    background:#b4b9b3;
+}
+
+.nav_selected{
+    font-size: larger;
+    background: white;
+}
