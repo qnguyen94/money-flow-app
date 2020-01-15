@@ -26,10 +26,6 @@ class App extends React.Component {
         {/* Conditional Rendering */}
         <div className="body">
           <NAVBAR />
-          {/* TODO: Delete this later*/}
-          {/* <button name="main" onClick={e => this.handleChangePage(e.target.name)}>Change to main</button>
-          <button name="income" onClick={e => this.handleChangePage(e.target.name)}>Change to income</button>
-          <button name="expense" onClick={e => this.handleChangePage(e.target.name)}>Change to expense</button> */}
           <div id="dashboard_render">
             {store.getState().page === "main"? <Main />:
               store.getState().page === "income"? <Income />:

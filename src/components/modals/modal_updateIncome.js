@@ -39,8 +39,8 @@ class UPDATE_INCOME_MODAL extends React.Component{
 
     //State changes in amount field
     handleChange(e){
-        console.warn(this.state)
-        console.warn(e.target.id, e.target.value);
+        // console.warn(this.state)
+        // console.warn(e.target.id, e.target.value);
         let value = e.target.value;
         if(e.target.id === "form_income_source_update"){
             this.setState({form_source: value})

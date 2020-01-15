@@ -8,8 +8,6 @@ import { refresh_total_income, refresh_total_expense, refresh_money_flow } from 
 
 const expenses_template = EXPENSES_CATEGORIES
 
-//TODO: UPDATE TOTALS AFTER RELEVANT OPERATIONS
-
 const rootReducer = (state = DEFAULT_STATE, payload) => {
     let newState = Object.assign({}, state);
 
@@ -34,7 +32,7 @@ const rootReducer = (state = DEFAULT_STATE, payload) => {
             break;
 
         case DELETE_INCOME:
-            console.log("Delete income invoked" + payload.data.id)
+            console.log("Delete income invoked")
             for (let i = 0; i < newState["income_objects"].length; i++){
                 if(newState["income_objects"][i].id === payload.data.id){
                     newState["income_objects"].splice(i,1);
@@ -57,7 +55,7 @@ const rootReducer = (state = DEFAULT_STATE, payload) => {
 
         case UPDATE_INCOME:
             console.log("UPDATE income invoked");
-            console.log(payload.object)
+            // console.log(payload.object)
             for (let i = 0; i < newState["income_objects"].length; i++){
                 if(newState["income_objects"][i].id === payload.object.id){
                     newState["income_objects"][i] = {
@@ -122,14 +120,14 @@ const rootReducer = (state = DEFAULT_STATE, payload) => {
         
         case DELETE_EXPENSE:
             console.log("Delete expense invoked");
-            console.log("ID: " + payload.data.id)
+            // console.log("ID: " + payload.data.id)
             let obj = newState.expense_objects;
             for(let cat in obj){
                 for(let i=0; i< obj[cat].length; i++){
                     if(obj[cat][i].id === payload.data.id){
-                        console.log("deleting: "+ obj[cat][i].id);
+                        // console.log("deleting: "+ obj[cat][i].id);
                         obj[cat].splice(i,1);
-                        break; //TODO: TEST THIS
+                        break;
                     }
                 }
                 // Delete caterory if it is an empty string
