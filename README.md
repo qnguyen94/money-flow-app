@@ -34,8 +34,4 @@ Enter your income and expense sources to find out your money flow (income - expe
 
 ---
 
-<<<<<<< HEAD
 #### This project is inspired by the `Moneyman Project`, a project I took part in during my Senior Experience Program at California State University, San Marcos.
-=======
-#### This project is inspired by the `Moneyman Project`, a project I took part in during my Senior Experience Program at California State University, San Marcos.
->>>>>>> 9bf042a492ebb1bc7b256b21c686439ed07fb309
