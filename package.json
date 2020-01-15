@@ -1,7 +1,7 @@
 {
   "name": "money-flow-app",
   "homepage": "https://qnguyen94.github.io/money-flow-app/",
-  "version": "0.1.0",
+  "version": "0.1.0", 
   "private": true,
   "dependencies": {
     "@nivo/pie": "^0.61.1",
