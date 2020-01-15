@@ -4,9 +4,8 @@ const FOOTER = () => {
     return(
         <div className="footer">
             <div id="footer_text">
-                <p>Inspsired by Moneyman - A Senior Experience project.</p>
-                <p>California State University, San Marcos - Fall 2019</p>
-                <p>By Quang Nguyen. Business Administration - Management Information System Student</p>
+                <p>Inspired by Moneyman - A Senior Experience Project.</p>
+                <p>By Quang Nguyen. CSU San Marcos Business Administration - MIS</p>
             </div>
         </div> 
     )
