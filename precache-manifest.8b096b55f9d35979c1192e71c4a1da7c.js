@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9e8893dcea60415d3dac4dec771c422",
+    "revision": "92bee68a5a95aa0853c72082de731566",
     "url": "/money-flow-app/index.html"
   },
   {
-    "revision": "d743a01f18e5cb8587ea",
+    "revision": "8b7bcd35739906a44603",
     "url": "/money-flow-app/static/css/main.5ce5414e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-flow-app/static/js/2.cc825be7.chunk.js.LICENSE"
   },
   {
-    "revision": "d743a01f18e5cb8587ea",
-    "url": "/money-flow-app/static/js/main.8716eec7.chunk.js"
+    "revision": "8b7bcd35739906a44603",
+    "url": "/money-flow-app/static/js/main.ab1355e6.chunk.js"
   },
   {
     "revision": "9fbaeaace76db15b76d3",

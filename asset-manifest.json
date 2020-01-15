@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/money-flow-app/static/css/main.5ce5414e.chunk.css",
-    "main.js": "/money-flow-app/static/js/main.8716eec7.chunk.js",
-    "main.js.map": "/money-flow-app/static/js/main.8716eec7.chunk.js.map",
+    "main.js": "/money-flow-app/static/js/main.ab1355e6.chunk.js",
+    "main.js.map": "/money-flow-app/static/js/main.ab1355e6.chunk.js.map",
     "runtime-main.js": "/money-flow-app/static/js/runtime-main.1e45b05e.js",
     "runtime-main.js.map": "/money-flow-app/static/js/runtime-main.1e45b05e.js.map",
     "static/js/2.cc825be7.chunk.js": "/money-flow-app/static/js/2.cc825be7.chunk.js",
     "static/js/2.cc825be7.chunk.js.map": "/money-flow-app/static/js/2.cc825be7.chunk.js.map",
     "index.html": "/money-flow-app/index.html",
-    "precache-manifest.aa09acfedb29a0fd5276bea54b866e2b.js": "/money-flow-app/precache-manifest.aa09acfedb29a0fd5276bea54b866e2b.js",
+    "precache-manifest.8b096b55f9d35979c1192e71c4a1da7c.js": "/money-flow-app/precache-manifest.8b096b55f9d35979c1192e71c4a1da7c.js",
     "service-worker.js": "/money-flow-app/service-worker.js",
     "static/css/main.5ce5414e.chunk.css.map": "/money-flow-app/static/css/main.5ce5414e.chunk.css.map",
     "static/js/2.cc825be7.chunk.js.LICENSE": "/money-flow-app/static/js/2.cc825be7.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1e45b05e.js",
     "static/js/2.cc825be7.chunk.js",
     "static/css/main.5ce5414e.chunk.css",
-    "static/js/main.8716eec7.chunk.js"
+    "static/js/main.ab1355e6.chunk.js"
   ]
 }
