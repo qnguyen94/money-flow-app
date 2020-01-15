@@ -1,8 +1,8 @@
 # Money Flow App
 
-A simple front-end application data visualization app written with ReactJS and Nivo.
+A simple front-end data visualization application written with ReactJS, Redux, and Nivo.
 
-Enter your income and expense sources to find out your money flow (income - expense) and composition both your expense and income.
+Enter your income and expense sources to find out your money flow (income - expense) and composition of both your expense and income.
 
 ## Dashboard page components
 
